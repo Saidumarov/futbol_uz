@@ -111,9 +111,33 @@ body img {
     height: 100%;
     border-radius: 10px;
     display: flex;
-
+    z-index: 2;
+    cursor: pointer;
 
 }
+
+.sur {
+    width: 189px;
+    height: 50px;
+    border-radius: 10px;
+    background: #469264;
+
+    transition: .6s;
+    z-index: 1;
+    position: absolute;
+}
+
+.sur1 {
+    width: 189px;
+    height: 50px;
+    border-radius: 10px;
+    background: #469264;
+    left: 39%;
+    transition: .6s;
+    z-index: 1;
+    position: absolute;
+}
+
 
 #j1 {
     width: 189px;
@@ -164,7 +188,7 @@ body img {
 }
 
 #j2 {
-    background: #469264;
+
     color: #FFFFFF;
 }
 
@@ -662,29 +686,44 @@ h3 {
     border: 1px solid #FFFFFF;
 }
 
-.linya1 p{
-font-family: sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 33px;
-color: #FFFFFF;
-text-align: center;
+.linya1 p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    text-align: center;
 
 
 }
-.linya1{
 
-  display: flex;
-  flex-wrap: nowrap;
+.linya1 {
+
+    display: flex;
+    flex-wrap: nowrap;
 }
 
-.p5{
+.p5 {
     width: 100%;
-padding-top: 30px;
-    
+    padding-top: 30px;
+
 }
 
+
+#sur,
+#sur1,
+#sur2,
+#sur3,
+#sur4,
+#sur5,
+#sur6,
+#sur7,
+#sur8,
+#sur9,
+#sur10 {
+    transition: .3s;
+}
 
 
 
