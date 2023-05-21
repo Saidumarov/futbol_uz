@@ -44,11 +44,7 @@ function ok2() {
         element.style.backgroundColor = '#222327';
     });
 
-    const color = document.querySelectorAll('#j1 p')
-
-    color.forEach((element) => {
-        element.style.color = 'white';
-    });
+ 
     // yangilik
 }
 // dark liet
@@ -97,11 +93,7 @@ function ok1() {
         element.style.backgroundColor = '';
     });
 
-    const color = document.querySelectorAll('#j1 p')
-
-    color.forEach((element) => {
-        element.style.color = ' rgba(119, 119, 119, 1)';
-    });
+ 
     // yangilik
 }
 
@@ -113,10 +105,10 @@ function s1() {
     let sur = document.querySelector(".sur")
     sur.style.left = "2.8%"
     document.getElementById("sur").style.color = "white"
-    document.getElementById("sur1").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur2").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur3").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur4").style.color = " rgba(119, 119, 119, 1)";
+    document.getElementById("sur1").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur2").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur3").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur4").style.color = " rgb(156, 149, 149)";
 
     
 
@@ -124,37 +116,37 @@ function s1() {
 function s2() {
     let sur = document.querySelector(".sur")
     sur.style.left = "15%"
-    document.getElementById("sur").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur").style.color = " rgb(156, 149, 149)"
     document.getElementById("sur1").style.color = " white"
-    document.getElementById("sur2").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur3").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur4").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur2").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur3").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur4").style.color = " rgb(156, 149, 149)"
 }
 function s3() {
     let sur = document.querySelector(".sur")
     sur.style.left = "27%"
-    document.getElementById("sur").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur1").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur1").style.color = " rgb(156, 149, 149)"
     document.getElementById("sur2").style.color = " white"
-    document.getElementById("sur3").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur4").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur3").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur4").style.color = " rgb(156, 149, 149)"
 }
 function s4() {
     let sur = document.querySelector(".sur")
     sur.style.left = "39%"
-    document.getElementById("sur").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur1").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur2").style.color = "  rgba(119, 119, 119, 1)"
+    document.getElementById("sur").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur1").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur2").style.color = "  rgb(156, 149, 149)"
     document.getElementById("sur3").style.color = " white"
-    document.getElementById("sur4").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur4").style.color = " rgb(156, 149, 149)"
 }
 function s5() {
     let sur = document.querySelector(".sur")
     sur.style.left = "52%"
-    document.getElementById("sur").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur1").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur2").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur3").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur1").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur2").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur3").style.color = " rgb(156, 149, 149)"
     document.getElementById("sur4").style.color = "white"
 }
 
@@ -164,46 +156,46 @@ function s6() {
     let sur1 = document.querySelector(".sur1")
     sur1.style.left = "2.8%"
     document.getElementById("sur5").style.color = "white"
-    document.getElementById("sur6").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur7").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur8").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur9").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur6").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur7").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur8").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur9").style.color = " rgb(156, 149, 149)"
 }
 function s7() {
     let sur1 = document.querySelector(".sur1")
     sur1.style.left = "15%"
-    document.getElementById("sur5").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur5").style.color = " rgb(156, 149, 149)"
     document.getElementById("sur6").style.color = " white"
-    document.getElementById("sur7").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur8").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur9").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur7").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur8").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur9").style.color = " rgb(156, 149, 149)"
 }
 function s8() {
     let sur1 = document.querySelector(".sur1")
     sur1.style.left = "27%"
-    document.getElementById("sur5").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur6").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur5").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur6").style.color = " rgb(156, 149, 149)"
     document.getElementById("sur7").style.color = " white"
-    document.getElementById("sur8").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur9").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur8").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur9").style.color = " rgb(156, 149, 149)"
 }
 function s9() {
     let sur1 = document.querySelector(".sur1")
     sur1.style.left = "39%"
-    document.getElementById("sur5").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur6").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur7").style.color = "  rgba(119, 119, 119, 1)"
+    document.getElementById("sur5").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur6").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur7").style.color = "  rgb(156, 149, 149)"
     document.getElementById("sur8").style.color = " white"
-    document.getElementById("sur9").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur9").style.color = " rgb(156, 149, 149)"
 }
 function s10() {
     let sur1 = document.querySelector(".sur1")
     sur1.style.left = "52%"
     document.getElementById("sur9").style.color = "white"
-    document.getElementById("sur8").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur5 ").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur6").style.color = " rgba(119, 119, 119, 1)"
-    document.getElementById("sur7").style.color = " rgba(119, 119, 119, 1)"
+    document.getElementById("sur8").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur5 ").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur6").style.color = " rgb(156, 149, 149)"
+    document.getElementById("sur7").style.color = " rgb(156, 149, 149)"
     
   
 }
@@ -422,7 +414,8 @@ maydon.map(itmem => {
         <option value="Italiya. A seriya">Italiya. A seriya</option>
     </select>
     <div class="jad1">
-        <p class="p1">№ Команда</p>
+        <p class="p1"  > <span  class="iy">№</span>  <span  id="spay"> Команда</span>  <span id="spa11">И</span> <span
+        id="spa22">O</span></p>
     </div>
     <div class="jad2"><p class="p2"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
                 id="spa2">${itmem.nambur1}</span> </p> <img src="${itmem.img}" class="iii" alt="">
@@ -864,7 +857,7 @@ menyu.map(men => {
                 </div>
 
             </div>
-            <div class="linya"></div>
+            <div class="linya2"></div>
 
 
         </div>

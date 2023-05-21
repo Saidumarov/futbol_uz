@@ -1,43 +1,144 @@
+
+
+
+// dark liet
+let jamo = document.querySelector(".jamo")
+const body = document.querySelector("body")
+
+function ok2() {
+    body.style.backgroundColor = "#16171B"
+    body.style.color = "white"
+    document.querySelector(".bas1").style.backgroundColor = "#222327"
+    document.querySelector(".bas2").style.backgroundColor = "#222327"
+    document.querySelector("#ok1").style.color = "black"
+    document.querySelector(".texp").style.color = "white"
+    document.querySelector(".mbat").style.color = "white"
+    document.querySelector("#ok2").style.zIndex = "-1"
+    document.querySelector("#ok1").style.zIndex = "1"
+    document.querySelector(".moy").style.backgroundColor = "#ffffff"
+    document.querySelector(".asosh2").style.color = "white"
+   
+
+
+    const divElement = document.querySelectorAll('#yy1 ,.y1')
+
+    divElement.forEach((element) => {
+        element.style.backgroundColor = '#222327';
+    });
+
+    const divElementa = document.querySelectorAll('.messi h2')
+
+    divElementa.forEach((element) => {
+        element.style.color = 'white';
+    });
+
+    const divElements = document.querySelectorAll('.messi p')
+
+    divElements.forEach((element) => {
+        element.style.color = 'white';
+    });
+
+    const divelementt = document.querySelectorAll(".asosh2")
+
+    divelementt.forEach((element) => {
+        element.style.color = 'white';
+    });
+
+    const lenya = document.querySelectorAll(".linya")
+    lenya.forEach((element) => {
+        element.style.backgroundColor = 'white';
+    });
+    // yangilik
+}
+
+function ok1() {
+    body.style.backgroundColor = "white"
+    body.style.color = ""
+    document.querySelector(".bas1").style.backgroundColor = ""
+    document.querySelector(".bas2").style.backgroundColor = ""
+    document.querySelector(".texp").style.color = ""
+    document.querySelector(".mbat").style.color = ""
+    document.querySelector("#ok2").style.zIndex = "1"
+    document.querySelector("#ok1").style.zIndex = "-1"
+    document.querySelector(".moy").style.backgroundColor = " #242529"
+    
+
+
+    // yangilik
+    const divElement = document.querySelectorAll('#yy1 ,.y1')
+
+    divElement.forEach((element) => {
+        element.style.backgroundColor = '';
+    });
+
+    const divElementa = document.querySelectorAll('.messi h2')
+
+    divElementa.forEach((element) => {
+        element.style.color = '';
+    });
+
+    const divElements = document.querySelectorAll('.messi p')
+
+    divElements.forEach((element) => {
+        element.style.color = '';
+    });
+    const divelementt = document.querySelectorAll(".asosh2")
+
+    divelementt.forEach((element) => {
+        element.style.color = '';
+    });
+
+    const lenya = document.querySelectorAll(".linya")
+    lenya.forEach((element) => {
+        element.style.backgroundColor = '';
+    });
+}
+
+// dark liet
+
+
+
+
 const data = [
     {
-        id:1,
-        name:"20.5.2023 00:00",
-        title:"Messi Goal.com saytida yilning eng yaxshi futbolchisi deb topildi"
+        id: 1,
+        name: "20.5.2023 00:00",
+        title: "Messi Goal.com saytida yilning eng yaxshi futbolchisi deb topildi"
 
     },
     {
-        id:2,
-        name:"20.5.2023 00:00",
-        title:"Messi Goal.com saytida yilning eng yaxshi futbolchisi deb topildi"
+        id: 2,
+        name: "20.5.2023 00:00",
+        title: "Messi Goal.com saytida yilning eng yaxshi futbolchisi deb topildi"
     },
- 
+
 ]
 let res = document.querySelector(".asos")
 let ui = ""
-data.map(itme =>{
-    ui +=`
+data.map(itme => {
+    ui += `
   
     <h2 class="asosh2">Asosiy</h2>
    
     <div class="messi">
-        <h2  class="rang">${itme.title}</h2>
-        <p class="rang"> ${itme.name}</p>
+        <h2 > ${itme.title}</h2>
+        <p > ${itme.name}</p>
             </div>
             <div class="linya"></div>
             <div class="messi">
-            <h2  class="rang">${itme.title}</h2>
-            <p class="rang"> ${itme.name}</p>
+            <h2  >${itme.title}</h2>
+            <p > ${itme.name}</p>
         </div>
         <div class="linya"></div>
         <div class="messi">
-        <h2  class="rang">${itme.title}</h2>
-        <p class="rang"> ${itme.name}</p>
+        <h2  >${itme.title}</h2>
+        <p > ${itme.name}</p>
         </div>
         <div class="linya"></div>
 
         <div class="messi" id="mess">
-       <h2 class="rang" >${itme.title}</h2>
-        <p class="rang"> ${itme.name}</p>
+       <h2  >${itme.title}</h2>
+        <p > ${itme.name}</p>
         </div>
        
  
@@ -188,7 +289,7 @@ menyu.map(men => {
                 </div>
 
             </div>
-            <div class="linya"></div>
+            <div class="linya2"></div>
 
 
         </div>
@@ -208,60 +309,3 @@ menyu.map(men => {
 
 
 
-// dark liet
-let jamo = document.querySelector(".jamo")
-const body = document.querySelector("body")
-
-function ok2() {
-    body.style.backgroundColor = "#16171B"
-    body.style.color = "white"
-    document.querySelector(".bas1").style.backgroundColor = "#222327" 
-    document.querySelector(".bas2").style.backgroundColor = "#222327" 
-    document.querySelector("#ok1").style.color = "black"
-    document.querySelector(".texp").style.color = "white"
-    document.querySelector(".mbat").style.color = "white"
-    document.querySelector("#ok2").style.zIndex = "-1"
-    document.querySelector("#ok1").style.zIndex = "1"
-    document.querySelector(".moy").style.backgroundColor = "#ffffff"
-   
-
-
-    const divElement = document.querySelectorAll('#yy1 ,.y1')
-
-    divElement.forEach((element) => {
-        element.style.backgroundColor = '#222327';
-    });
-    const divh2 =  document.querySelectorall("#color1,.color1")
-    divh2.forEach((div) => {
-     div.style.Volor = "white"
- });
-
-    // yangilik
-}
-
-function ok1() {
-    body.style.backgroundColor = "white"
-    body.style.color = ""
-    document.querySelector(".bas1").style.backgroundColor = "" 
-    document.querySelector(".bas2").style.backgroundColor = "" 
-    document.querySelector(".texp").style.color = ""
-    document.querySelector(".mbat").style.color = ""
-    document.querySelector("#ok2").style.zIndex = "1"
-    document.querySelector("#ok1").style.zIndex = "-1"
-    document.querySelector(".moy").style.backgroundColor = " #242529"
-    
-    // yangilik
-    const divElement = document.querySelectorAll('#yy1 ,.y1')
-
-    divElement.forEach((element) => {
-        element.style.backgroundColor = '';
-    });
-
-    const divh2 =  document.querySelectorall("#color1,.color1")
-    divh2.forEach((div) => {
-     div.style.Color = "white"
- });
- 
-}
-
-// dark liet
