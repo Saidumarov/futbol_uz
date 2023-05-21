@@ -435,7 +435,13 @@ select {
     color: #FFFFFF;
     width: 100%;
     letter-spacing: 1px;
+    transition: .4s;
+}
 
+
+.bigp:hover{
+    color: rgb(37, 118, 211);
+   
 }
 
 .yangilik {
@@ -537,6 +543,7 @@ h3 {
     justify-content: center;
 
 }
+
 
 /* /barcha yangiliklar */
 /* menyu */
@@ -726,6 +733,8 @@ h3 {
 }
 
 
-
+a{
+    text-decoration: none;
+}
 
 /* menyu */

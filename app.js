@@ -400,7 +400,7 @@ maydon.map(itmem => {
     <div class="countenr">
     <div class="vra">
         <div class="maydon">
-            <div class="bimg"><p class="bigp";>${itmem.name} </p><span class = "tim";>${itmem.tim}</span></div>
+        <a href="./batafsil.html"> <div class="bimg"><p class="bigp">${itmem.name} </p><span class = "tim";>${itmem.tim}</span></div></a>
             <div class="botm">
                 <div class="bim2" id="bk1"><p class="pp"> ${itmem.text}</p>
                 <span class="sp">3 soat oldin</span></div>

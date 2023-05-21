@@ -146,3 +146,12 @@ color: #898989;
     justify-content: center;
     
 }
+
+.asosiy12 {
+    width: 97.5%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
