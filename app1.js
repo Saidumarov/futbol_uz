@@ -106,11 +106,7 @@ const data = [
         title: "Messi Goal.com saytida yilning eng yaxshi futbolchisi deb topildi"
 
     },
-    {
-        id: 2,
-        name: "20.5.2023 00:00",
-        title: "Messi Goal.com saytida yilning eng yaxshi futbolchisi deb topildi"
-    },
+   
 
 ]
 let res = document.querySelector(".asos")
@@ -141,12 +137,39 @@ data.map(itme => {
         <p > ${itme.name}</p>
         </div>
        
- 
+ <div class="nann">
+ <h2 class="asosh2">Asosiy</h2>
+   
+    <div class="messi">
+        <h2 > ${itme.title}</h2>
+        <p > ${itme.name}</p>
+            </div>
+            <div class="linya"></div>
+            <div class="messi">
+            <h2  >${itme.title}</h2>
+            <p > ${itme.name}</p>
+        </div>
+        <div class="linya"></div>
+        <div class="messi">
+        <h2  >${itme.title}</h2>
+        <p > ${itme.name}</p>
+        </div>
+        <div class="linya"></div>
+
+        <div class="messi" id="mess">
+       <h2  >${itme.title}</h2>
+        <p > ${itme.name}</p>
+        </div>
+       
+ </div>
     
     `
     res.innerHTML = ui
 })
 
+
+
+ 
 
 let menyu = [
     {
@@ -244,7 +267,7 @@ menyu.map(men => {
     <div class="countenr">
     <div class="men1">
         <div class="men">
-            <div class="m1"> <img src="./imge/photo_2023-05-18_17-15-44-removebg-preview.png" alt="">
+            <div class="m1" id="m11"> <img src="./imge/photo_2023-05-18_17-15-44-removebg-preview.png" alt="">
             </div>
             <div class="m1">
                 <p>${men.name}</p>

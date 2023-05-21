@@ -202,6 +202,40 @@ function s10() {
 
 // harakat
 
+// media
+if (window.matchMedia("(max-width: 768px)").matches) {
+   // harakat
+function s1() {
+
+    let sur = document.querySelector(".sur")
+    sur.style.left = "10px"
+            
+}
+function s2() {
+    let sur = document.querySelector(".sur")
+    sur.style.left = "20%"
+           }
+function s3() {
+    let sur = document.querySelector(".sur")
+    sur.style.left = "39%"
+           }
+function s4() {
+    let sur = document.querySelector(".sur")
+    sur.style.left = "58%"
+        
+   }
+function s5() {
+    let sur = document.querySelector(".sur")
+    sur.style.left = "77%"
+              
+
+
+
+// harakat
+}}
+
+// media
+
 
 let data = [
     {
@@ -302,6 +336,7 @@ data.map(itme => {
 
     
 </div>
+<div class="nonn">
 <div class="jamo1" id="jamo1">
 <div class="j-itme"  id="j1"  onclick="s6()"><img src="${itme.img2}" alt=""><p id="sur5">Italiya. Seriya A</p></div>
 <div class="j-itme"  id="j1"  onclick="s7()"><img src="${itme.img3}" alt="" ><p id="sur6">Premier Liga</p></div>
@@ -356,6 +391,7 @@ data.map(itme => {
 <div class="jj2">${itme.tim}</div></div>
 
 
+</div>
 </div>
 
 
@@ -812,7 +848,7 @@ menyu.map(men => {
     <div class="countenr">
     <div class="men1">
         <div class="men">
-            <div class="m1"> <img src="./imge/photo_2023-05-18_17-15-44-removebg-preview.png" alt="">
+            <div class="m1" id="m11"> <img src="./imge/photo_2023-05-18_17-15-44-removebg-preview.png" alt="">
             </div>
             <div class="m1">
                 <p>${men.name}</p>

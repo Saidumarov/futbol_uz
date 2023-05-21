@@ -257,17 +257,17 @@ span {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 6px;
 
 
 }
 
 .bimg {
-    background-image: url(./imge/maydon.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./imge/maydon.jpg);
     width: 99%;
     height: 483px;
     background-repeat: no-repeat;
     background-size: cover;
-    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(.jpg); */
     border-radius: 10px;
     background-position: bottom;
 
@@ -425,6 +425,7 @@ select {
 #spa2 {
     padding-left: 245px;
 }
+
 #spa11 {
     padding-left: 189px;
 }
@@ -448,9 +449,9 @@ select {
 }
 
 
-.bigp:hover{
+.bigp:hover {
     color: rgb(37, 118, 211);
-   
+
 }
 
 .yangilik {
@@ -559,7 +560,7 @@ h3 {
 
 .menyu {
     width: 100%;
-    height: 350px;
+    height: auto;
     background-color: #469264;
     margin-top: 100px;
 
@@ -699,8 +700,10 @@ h3 {
     width: 100%;
     height: 1px;
     opacity: 0.5;
-    background-color:  #797676;;
+    background-color: #797676;
+    ;
 }
+
 .linya2 {
     width: 100%;
     height: 1px;
@@ -748,19 +751,434 @@ h3 {
 }
 
 
-a{
+a {
     text-decoration: none;
 }
 
 
-.iy{
-   margin-left: 10px;
+.iy {
+    margin-left: 10px;
     position: relative;
 
 }
 
-#spay{
-   position: absolute;
-   margin-left: 30px;
+#spay {
+    position: absolute;
+    margin-left: 30px;
 }
+
 /* menyu */
+
+/* media qure */
+@media screen and (max-width:768px) {
+    .vra {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .maydon {
+        width: 100%;
+    }
+
+    .y1 {
+        margin-left: 0;
+    }
+
+
+
+    .yangilik {
+        margin-left: 0;
+    }
+
+    .nonn {
+        display: none;
+    }
+
+    .wap {
+        right: 0;
+
+    }
+
+    .bim1 {
+        width: 45%;
+        height: 240px;
+        background-color: #DAE9E0;
+        margin: 0 7.5px 8px 7.5px;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    .bim2 {
+        width: 45%;
+        height: 240px;
+        background-color: #DAE9E0;
+        margin: 0 7.5px 16px 0;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+
+
+
+    }
+
+    .pp {
+        padding-top: 150px;
+        font-size: 15px;
+    }
+
+    .sp {
+        padding-top: 5px;
+    }
+
+
+    .maydon1 {
+        display: none;
+    }
+
+    .bim1 {
+        display: block;
+        position: relative;
+    }
+
+    .bim2 {
+        display: block;
+        position: relative;
+
+    }
+
+    /* .asosiy{
+  margin-top: 800px;
+} */
+
+    .yangilik {
+        display: block;
+        position: relative;
+        margin-top: 800px;
+    }
+
+    .h3 {
+        padding-left: 0px;
+    }
+
+    #yan {
+        margin-top: 40px;
+    }
+
+    #yy {
+        margin-top: 30px;
+    }
+
+    #yan1 {
+        margin-top: 40px;
+    }
+
+    .bigp {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .tim {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+
+    .bimg {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./imge/maydon1.jpg);
+        width: 100%;
+        height: 470px;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .menyu {
+        width: 100%;
+        height: auto;
+        background-color: #469264;
+        margin-top: 50px;
+
+    }
+
+    .men1 {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .men {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .m1 {
+        width: 20%;
+        height: auto;
+        margin: 15px;
+        margin-top: 150px;
+        margin-left: 25px;
+    }
+
+    .m2 {
+        width: 90%;
+        height: auto;
+        margin: 15px;
+        margin-top: -25px;
+
+    }
+
+    .m1 p {
+        line-height: 30px;
+    }
+
+    .p5 p {
+        font-size: 20px;
+
+    }
+
+    .p5 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+
+
+    #m11 {
+
+        width: 80%;
+        height: 200px;
+        margin: 15px;
+        /* margin-top: 45px; */
+        position: absolute;
+
+    }
+
+    .m2 {
+        display: block;
+
+    }
+
+    #sur,
+    #sur1,
+    #sur2,
+    #sur3,
+    #sur4,
+    #sur5,
+    #sur6,
+    #sur7,
+    #sur8,
+    #sur9,
+    #sur10 {
+        display: none;
+    }
+
+    .jamo1 {
+        flex-wrap: nowrap;
+        width: 98%;
+        margin: 0;
+
+    }
+
+    .sur {
+        width: 70px;
+        height: 50px;
+        left: 10px;
+
+    }
+
+    .mimg1 {
+        width: 50px;
+        height: 53px;
+        border-radius: 50%;
+        background-color: white;
+
+    }
+
+    .mimg2 {
+        width: 65px;
+        height: 55px;
+        margin-top: -5px;
+    }
+
+    .mimg3 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .mimg4 {
+        width: 50px;
+        height: 50px;
+        /* border-radius: 50%; */
+        border: none;
+        border-radius: 50px;
+        background-color: white;
+    }
+
+    .mimg4 img {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        margin: -7px 0 0 -5px;
+
+    }
+
+    .mimg5 {
+        width: 50px;
+        height: 50px;
+    }
+
+    .mimg6 {
+        width: 50px;
+        height: 50px;
+
+
+    }
+
+    .mimg7 {
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .mimg7 img {
+
+        border-radius: 15px;
+
+    }
+
+    .mimg5 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+
+    }
+
+    .mimg6 img {
+        background-color: white;
+        border-radius: 15px;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .mat1 {
+        font-size: 25px;
+    }
+
+    .back {
+        width: 100%;
+    }
+
+    .back1 {
+        width: 100%;
+        height: 450px;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(./imge/maydon1.jpg);
+        background-size: cover;
+        background-position: bottom;
+
+        border-radius: 15px;
+
+
+    }
+
+    .back2 {
+        width: 92%;
+        height: 400px;
+        /* background-color: #873b3b; */
+        margin: 30px auto 0 auto;
+
+    }
+
+    .bas2 {
+        display: none;
+    }
+
+    .textbg {
+        width: 90%;
+        height: auto;
+        margin: 180px auto 0 auto;
+    }
+
+    .texp {
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        /* or 150% */
+        text-align: justify;
+
+        color: #000000;
+    }
+
+    .nann {
+        display: none;
+    }
+
+    .flex-no {
+        width: 100%;
+        /* background-color: #584848; */
+        height: auto;
+        margin: 50px auto 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+
+
+    }
+
+  
+}
+
+@media screen and (max-width:1324px) {
+    .bas1 {
+        width: 100%;
+        height: 600px;
+        background: #F4F5F7;
+        border-radius: 10px;
+    }
+
+
+    .bas2 {
+        width: 100%;
+        height: 600px;
+        background: #F4F5F7;
+        border-radius: 10px;
+        margin-top: 55px;
+    }
+}
+
+@media screen and (max-width:956px) {
+    .bas1 {
+        width: 100%;
+        height: 690px;
+        background: #F4F5F7;
+        border-radius: 10px;
+    }
+
+
+    .bas2 {
+        width: 100%;
+        height: 710px;
+        background: #F4F5F7;
+        border-radius: 10px;
+        margin-top: 55px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .bas1 {
+        width: 100%;
+        height: 520px;
+        background: #F4F5F7;
+        border-radius: 10px;
+    }
+
+
+
+}
+
+/* media qure */
