@@ -406,7 +406,7 @@ let uii = ""
 let maydon = [
     {
         id: 1,
-        name: "Faqatgina muvaffaqiyatli qur'a Rossiyani <br>Jahon chempionatiga olib boradi: bo'g'inlar <br> oldidagi barcha maketlar batafsil ma'lumot...",
+        name: "Faqatgina muvaffaqiyatli qur'a Rossiyani <br>Jahon chempionatiga olib boradi: bo'g'inlar <br> oldidagi barcha maketlar ",
         tim: "2 soat oldin",
         img: "./imge/scale_1200.webp",
         nambur: "15",
