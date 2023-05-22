@@ -406,7 +406,7 @@ let uii = ""
 let maydon = [
     {
         id: 1,
-        name: "Faqatgina muvaffaqiyatli qur'a Rossiyani <br>Jahon chempionatiga olib boradi: bo'g'inlar <br> oldidagi barcha maketlar",
+        name: "Faqatgina muvaffaqiyatli qur'a Rossiyani <br>Jahon chempionatiga olib boradi: bo'g'inlar <br> oldidagi barcha maketlar batafsil ma'lumot...",
         tim: "2 soat oldin",
         img: "./imge/scale_1200.webp",
         nambur: "15",
@@ -415,8 +415,9 @@ let maydon = [
         text: "Messi Goal.com saytida yilning <br> eng yaxshi futbolchisi deb topildi",
         text1: "Argentina terma jamoasi Braziliya bilan durang o'ynadi",
         text2: `"MYu" Sulsherni iste'foga chiqarishga qaror qildi`,
-        tim1: "3 soat oldin"
-
+        tim1: "3 soat oldin",
+      
+        
     },
 
 
@@ -425,6 +426,7 @@ let maydon = [
 maydon.map(itmem => {
     uii = `
     
+    <div class="flex05">
     <div class="countenr">
     <div class="vra">
         <div class="maydon">
@@ -516,13 +518,115 @@ maydon.map(itmem => {
         <p class="p1"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
                 id="spa2">${itmem.nambur1}</span></p> <img src="${itmem.img}" class="iil" alt="">
     </div>
-        </div>
+        </div> 
 
     </div>
 
     <!--/ maydon -->
 
     <!-- /jamolar -->
+</div></div>
+
+<div class="flex06">
+<div class="countenr">
+<div class="vra">
+    <div class="maydon">
+    <a href="./batafsil.html"> <div class="bimg"><p class="bigp">${itmem.name} </p><span class = "tim";>${itmem.tim}</span></div></a>
+        <div class="botm">
+            <div class="bim1" id="bk1"><p class="pp"> ${itmem.text}</p>
+            <span class="sp">3 soat oldin</span></div>
+            <div class="bim1" id="bk2" > <p class="pp"> ${itmem.text1}</p> <span class="sp">${itmem.tim1}</span></div>
+            <div class="bim1"  id="bk3"> <p class="pp">${itmem.text2}</p> <span class="sp">${itmem.tim1}</span></div>
+            <div class="bim1"  id="bk4"> <p class="pp">${itmem.text2}</p> <span class="sp">${itmem.tim1}</span></div>
+            <div class="bim1"  id="bk5"> <p class="pp">${itmem.text2}</p> <span class="sp">${itmem.tim1}</span></div>
+            <div class="bim1"  id="bk6"> <p class="pp">${itmem.text2}</p> <span class="sp">${itmem.tim1}</span></div>
+
+        </div>
+
+
+    </div>
+    <div class="maydon1">
+    <div class="jadval">
+    <h2>Jadval</h2>
+</div>
+<select>
+    <option value="Italiya. A seriya">Italiya. A seriya</option>
+</select>
+<div class="jad1">
+    <p class="p1"  > <span  class="iy">№</span>  <span  id="spay"> Команда</span>  <span id="spa11">И</span> <span
+    id="spa22">O</span></p>
+</div>
+<div class="jad2"><p class="p2"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span> </p> <img src="${itmem.img}" class="iii" alt="">
+</div>
+<div class="jad1"  >
+    <p class="p1"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span></p> <img src="${itmem.img}" class="iil" alt="">
+</div>
+<div class="jad2" ">
+    <p class="p2"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span> </p> <img src="${itmem.img}" class="iii" alt="">
+</div>
+<div class="jad1">
+    <p class="p1"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span></p> <img src="${itmem.img}" class="iil" alt="">
+</div>
+<div class="jad2" ">
+    <p class="p2"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span> </p> <img src="${itmem.img}" class="iii" alt="">
+</div>
+<div class="jad1">
+    <p class="p1"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span></p> <img src="${itmem.img}" class="iil" alt="">
+</div>
+<div class="jad2" ">
+    <p class="p2"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span> </p> <img src="${itmem.img}" class="iii" alt="">
+</div>
+<div class="jad1">
+    <p class="p1"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span></p> <img src="${itmem.img}" class="iil" alt="">
+</div>
+<div class="jad2" ">
+    <p class="p2"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span> </p> <img src="${itmem.img}" class="iii" alt="">
+</div>
+<div class="jad1">
+    <p class="p1"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span></p> <img src="${itmem.img}" class="iil" alt="">
+</div>
+<div class="jad2" ">
+    <p class="p2"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span> </p> <img src="${itmem.img}"" class="iii" alt="">
+</div>
+<div class="jad1">
+    <p class="p1"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span></p> <img src="${itmem.img}" class="iil" alt="">
+</div>
+<div class="jad2" ">
+    <p class="p2"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span> </p> <img src="${itmem.img}"" class="iii" alt="">
+</div>
+<div class="jad1">
+    <p class="p1"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span></p> <img src="${itmem.img}" class="iil" alt="">
+</div>
+<div class="jad2" ">
+    <p class="p2"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span> </p> <img src="${itmem.img}"" class="iii" alt="">
+</div>
+<div class="jad1">
+    <p class="p1"><b>1</b> <span id="spa">${itmem.title}</span> <span id="spa1">${itmem.nambur}</span> <span
+            id="spa2">${itmem.nambur1}</span></p> <img src="${itmem.img}" class="iil" alt="">
+</div>
+    </div> 
+
+</div>
+
+<!--/ maydon -->
+
+<!-- /jamolar -->
+</div>
 </div>
     `
     vra.innerHTML = uii
