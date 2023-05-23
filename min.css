@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -283,6 +284,7 @@ span {
 }
 
 .vra {
+   
     display: flex;
     flex-wrap: nowrap;
 }
@@ -789,7 +791,9 @@ a {
         margin: 0px 7.5px 0px 0;
     }
     .flex05{
+    
         display: none;
+      
     }
 
 

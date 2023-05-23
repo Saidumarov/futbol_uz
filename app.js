@@ -426,8 +426,9 @@ let maydon = [
 maydon.map(itmem => {
     uii = `
     
-    <div class="flex05">
+    
     <div class="countenr">
+    <div class="flex05">
     <div class="vra">
         <div class="maydon">
         <a href="./batafsil.html"> <div class="bimg"><p class="bigp">${itmem.name} </p><span class = "tim";>${itmem.tim}</span></div></a>
